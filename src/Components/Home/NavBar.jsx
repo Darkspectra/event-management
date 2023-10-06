@@ -5,8 +5,8 @@ const NavBar = () => {
     const links = <>
         <li className="font-bold text-3xl"><NavLink to="/">Home</NavLink></li>
         <li className="font-bold text-3xl mx-6"><NavLink to="/photo">Photos</NavLink></li>
-        <li className="font-bold text-3xl mr-6"><NavLink to="/career">Wedding Cake</NavLink></li>
-        <li className="font-bold text-3xl"><NavLink to="/career">Wedding Card</NavLink></li>
+        <li className="font-bold text-3xl mr-6"><NavLink to="/cake">Wedding Cake</NavLink></li>
+        <li className="font-bold text-3xl"><NavLink to="/card">Wedding Card</NavLink></li>
     </>
 
     // const { user, logOut } = useContext(AuthContext);

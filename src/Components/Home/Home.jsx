@@ -2,6 +2,7 @@ import { useLoaderData } from "react-router-dom";
 import Banner from "./Banner";
 import SearchBar from "./SearchBar";
 import Cards from "./Cards";
+import WeddingFooter from "./WeddingFooter";
 
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
                     parties.map(party => <Cards key={party.id} party={party}></Cards>)
                 }
             </div>
+            <WeddingFooter></WeddingFooter>
         </div>
     );
 };

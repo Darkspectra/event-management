@@ -38,6 +38,10 @@ const Photo = () => {
                     </div>
                 </div>
             </div>
+            <div className='mt-20 mb-20'>
+                <h2 className="text-3xl font-bold mb-9">Photos</h2>
+                <p className='text-2xl'>A well-taken marriage photo encapsulates much more than just a visual representation. It holds within it a narrative, a story that unfolds with every glance. Each photograph freezes a moment in time, preserving the smiles, tears, and gestures that make a wedding day so meaningful. The artistry behind marriage photography lies in the ability to blend technical skill with a keen eye for emotion and aesthetics. A skilled wedding photographer understands the nuances of lighting, composition, and framing, but more importantly, they have an innate sense for capturing candid, unscripted moments of joy, tenderness, and connection.</p>
+            </div>
         </div>
     );
 };
