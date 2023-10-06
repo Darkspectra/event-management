@@ -1,0 +1,51 @@
+[
+    {
+        "id": "1",
+        "name": "Formal Wedding",
+        "image": "https://i.ibb.co/MVH19wh/cocktail-party.jpg",
+        "price": "5000 $",
+        "brief": "This type of engagement party is held in an elegant setting..",
+        "description": "This type of engagement party is held in an elegant setting, such as a hotel ballroom or a fine dining restaurant. Guests are dressed in formal attire, and there may be a live band or DJ for entertainment."
+    },
+    {
+        "id": "2",
+        "name": "Backyard Wedding",
+        "image": "https://i.ibb.co/V0GV9tK/bbq-backyard-wedding.png",
+        "price": "6000 $",
+        "brief": "A more relaxed and casual option in backyard..",
+        "description": "A more relaxed and casual option, this party is held in a backyard or garden setting. It's a great choice for couples who prefer a laid-back atmosphere. There may be outdoor games, a grill, and plenty of space for guests to mingle."
+    },
+    {
+        "id": "3",
+        "name": "Themed Wedding",
+        "image": "https://i.ibb.co/crDbNbs/themed-wedding.jpg",
+        "price": "7000 $",
+        "brief": "A themed engagement party revolves around a specific concept..",
+        "description": "A themed engagement party revolves around a specific concept or idea that holds meaning to the couple. It could be based on a shared interest, a favorite movie or TV show, or even a specific era in history."
+    },
+    {
+        "id": "4",
+        "name": "Beach Wedding",
+        "image": "https://i.ibb.co/tp6yMfv/beach-wedding.jpg",
+        "price": "8000 $",
+        "brief": "This type of party is held in a beachside..",
+        "description": "This type of party is held in a beachside location or a destination significant to the couple. It's a wonderful option for couples who love travel or have a special connection to a particular place."
+    },
+    {
+        "id": "5",
+        "name": "Surprise Wedding",
+        "image": "https://i.ibb.co/qkCVrXH/surprise-wedding.jpg",
+        "price": "9000 $",
+        "brief": "A surprise engagement party is planned and organized..",
+        "description": "A surprise engagement party is planned and organized by friends or family without the knowledge of the engaged couple. The couple is invited under the guise of a different event, only to be surprised by the celebration."
+    },
+    {
+        "id": "6",
+        "name": "Virtual Wedding",
+        "image": "https://i.ibb.co/KVZgWgD/virtual-wedding.jpg",
+        "price": "9500 $",
+        "brief": "In cases where physical gatherings are not possible..",
+        "description": "In cases where physical gatherings are not possible or convenient, a virtual engagement party can be held over video conferencing platforms. Guests from different locations can join in to celebrate online."
+    }
+]
+    
