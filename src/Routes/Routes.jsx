@@ -7,6 +7,7 @@ import Cake from "../Components/Cake/Cake";
 import WeddingCard from "../Components/WeddingCard/WeddingCard";
 import Login from "../Components/Login/Login";
 import Register from "../Components/Register/Register";
+import PrivateRoutes from "./PrivateRoutes";
 
 
 const router = createBrowserRouter([
@@ -25,16 +26,16 @@ const router = createBrowserRouter([
             },
             {
                 path:"/details/:id",
-                element: <CardDetails></CardDetails>,
+                element: <PrivateRoutes><CardDetails></CardDetails></PrivateRoutes>,
                 loader: ()=> fetch("/party.json")
             },
             {
                 path:"/cake",
-                element: <Cake></Cake>
+                element: <PrivateRoutes><Cake></Cake></PrivateRoutes>
             },
             {
                 path:"/card",
-                element: <WeddingCard></WeddingCard>
+                element: <PrivateRoutes><WeddingCard></WeddingCard></PrivateRoutes>
             },
             {
                 path: '/login',

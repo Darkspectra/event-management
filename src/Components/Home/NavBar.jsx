@@ -1,5 +1,8 @@
 import { Link, NavLink } from "react-router-dom";
 import userDefault from "../../assets/user.jpg"
+import { useContext } from "react";
+import { AuthContext } from "../../Provider/AuthProvider";
+
 
 const NavBar = () => {
     const links = <>
@@ -9,12 +12,12 @@ const NavBar = () => {
         <li className="font-bold text-3xl"><NavLink to="/card">Wedding Card</NavLink></li>
     </>
 
-    // const { user, logOut } = useContext(AuthContext);
-    // const handleSignOut = () => {
-    //     logOut()
-    //         .then()
-    //         .catch()
-    // }
+    const { user, logOut } = useContext(AuthContext);
+    const handleSignOut = () => {
+        logOut()
+            .then()
+            .catch()
+    }
     return (
         <div>
             <div className="flex mx-auto items-center justify-between">
@@ -35,26 +38,24 @@ const NavBar = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="">
-                    <Link to="/login">
-                        <button className="btn font-bold text-4xl items-center mx-auto">Login</button>
-                    </Link>
+                <div>
+                    {
+                        user ?
+                            <div>
+                                <button onClick={handleSignOut} className="btn text-3xl font-bold">Sign Out</button>
+                                <label tabIndex={0} className="btn btn-ghost btn-circle avatar mt-8">
+                                    <div className="w-28 rounded-full">
+                                        <img className="mx-auto items-center" src={userDefault} />
+                                    </div>
+                                </label>
+                                <p className="text-4xl font-bold text-green-600">{user.email.split("@")[0]}</p>
+                            </div>
+                            :
+                            <Link to="/login">
+                                <button className="btn text-3xl font-bold">Login</button>
+                            </Link>
+                    }
                 </div>
-            </div>
-            <label tabIndex={0} className="btn btn-ghost btn-circle avatar mt-8">
-                <div className="w-28 rounded-full">
-                    <img className="mx-auto items-center" src={userDefault} />
-                </div>
-            </label>
-            <div>
-                {/* {
-                    user ?
-                        <button onClick={handleSignOut} className="btn">Sign Out</button>
-                        :
-                        <Link to="/login">
-                            <button className="btn">Login</button>
-                        </Link>
-                } */}
             </div>
         </div>
     );

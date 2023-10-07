@@ -4,7 +4,6 @@ import SearchBar from "./SearchBar";
 import Cards from "./Cards";
 import WeddingFooter from "./WeddingFooter";
 
-
 const Home = () => {
     const parties = useLoaderData()
     return (
@@ -12,7 +11,7 @@ const Home = () => {
             <Banner></Banner>
             <SearchBar></SearchBar>
             <h2 className="text-2xl">Total Data: {parties.length}</h2>
-            <div className="grid grid-cols-3 gap-20 my-14">
+            <div className="grid grid-cols-3 gap-20 my-14 ">
                 {
                     parties.map(party => <Cards key={party.id} party={party}></Cards>)
                 }
