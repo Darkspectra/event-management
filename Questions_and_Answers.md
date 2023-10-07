@@ -18,9 +18,9 @@ console.log(greetign);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: A
 
-<i>Write your explanation here</i>
+<i>(A) Because it will return an empty object which represent the inner DOM prototype elements. Therefore, output will be "{}"</i>
 
 </p>
 </details>
@@ -43,9 +43,9 @@ sum(1, "2");
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C
 
-<i>Write your explanation here</i>
+<i>(C) This function is summing two numbers where number and string are arguments. Since, string is present then it will dominate the number as default and concatenate these two value which will represent "12".</i>
 
 </p>
 </details>
@@ -69,9 +69,9 @@ console.log(food);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: A
 
-<i>Write your explanation here</i>
+<i>(A) Because it will show the "food" list only. Moreover, the "favoriteFood" item has been changed into 🍝 but the output will be "food" array</i>
 
 </p>
 </details>
@@ -94,9 +94,9 @@ console.log(sayHi());
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: B
 
-<i>Write your explanation here</i>
+<i>(B) The function "sayHi" has "name" parameter but default value is absent. Therefore, by calling this function, "Hi There, undefined" will print as there is no argument to be passed when calling the function</i>
 
 </p>
 </details>
@@ -122,9 +122,9 @@ console.log(count);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C
 
-<i>Write your explanation here</i>
+<i>(C) In this forEach loop, every elements is checked if the number is truthy or not. Here, the given array is [0, 1, 2, 3] where "0" is present. "if(0)" represent falsy and the "count" variable will not be increment for this phenomenon act. Therefore, the "count" result will be 3.</i>
 
 </p>
 </details>
