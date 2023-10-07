@@ -1,8 +1,8 @@
-# React + Vite
+## Espousal-ceremony (Wedding management website)
+## Website name: espousal-ceremony-event
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. It has 6 services and only logged in user can view it
+2. It has on going Discount News
+3. In Navbar section there are 2 private section (wedding cake, wedding card) which can only be accessed by logged in user.
+4. After logged in, user name will show in the navbar
+5. User easily can logged in with google mail.
