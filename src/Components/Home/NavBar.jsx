@@ -2,6 +2,7 @@ import { Link, NavLink } from "react-router-dom";
 import userDefault from "../../assets/user.jpg"
 import { useContext } from "react";
 import { AuthContext } from "../../Provider/AuthProvider";
+import Discount from "./Discount";
 
 
 const NavBar = () => {
@@ -57,6 +58,7 @@ const NavBar = () => {
                     }
                 </div>
             </div>
+            <Discount></Discount>
         </div>
     );
 };
