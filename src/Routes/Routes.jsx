@@ -8,12 +8,14 @@ import WeddingCard from "../Components/WeddingCard/WeddingCard";
 import Login from "../Components/Login/Login";
 import Register from "../Components/Register/Register";
 import PrivateRoutes from "./PrivateRoutes";
+import Error from "../Components/Error/Error";
 
 
 const router = createBrowserRouter([
     {
         path: '/',
         element: <Root></Root>,
+        errorElement: <Error></Error>,
         children: [
             {
                 path: '/',
